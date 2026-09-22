@@ -27,11 +27,7 @@ public class Alumno {
     }
 
     public void setTipoDoc(String TipoDoc) {
-        if (TipoDoc.equals("DNI") || TipoDoc.equals("Carnet de Extranjería")){
-            this.TipoDoc = TipoDoc;
-            }else {
-            System.out.println("El tipo de documento no es correcto");
-            }
+
     }
 
     public String getNumDoc() {
@@ -39,20 +35,7 @@ public class Alumno {
     }
 
     public void setNumDoc(String NumDoc) {
-        if(TipoDoc.equals("DNI"))
-        if(NumDoc.length()==8){
-        this.NumDoc = NumDoc;
-        }
-        else{
-        System.out.println("El DNI debe tener 8 dígitos");
-        }
-        else if(TipoDoc.equals("RT"))
-        if(NumDoc.length()==11){
-        this.NumDoc = NumDoc;
-        }
-        else{
-        System.out.println("El Carnet de Extranjería debe tener 11 dígitos");
-        }
+       
     }
 
     public String getTipoBeca() {

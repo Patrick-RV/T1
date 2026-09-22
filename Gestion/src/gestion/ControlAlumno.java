@@ -15,10 +15,6 @@ public class ControlAlumno {
     public void agregarAlumno(Alumno a){
     lista_alumno.add(a);
     }
-    public void listarAlumnos(){
-        System.out.println("La lista de asistentes es: ");
-        for(Alumno Alumno : lista_alumno){
-        Alumno.verDatos();
-        }
-    }
+
+    
 }

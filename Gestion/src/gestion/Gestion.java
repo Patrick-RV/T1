@@ -37,7 +37,7 @@ public class Gestion {
                 a.setNombre(sc.nextLine());
                 System.out.println("Ingrese Tipo de Beca: (Parcial / Total)");
                 a.setTipoBeca(sc.nextLine());
-            }
+}
             
             
 

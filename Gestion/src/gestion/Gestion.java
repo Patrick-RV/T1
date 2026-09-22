@@ -18,7 +18,7 @@ public class Gestion {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
-        ControlAlumno c = new ControlAlumno();
+        
         String rpta="si";
             while(rpta.equals("si"))
             {

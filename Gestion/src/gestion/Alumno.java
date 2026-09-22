@@ -64,8 +64,5 @@ public class Alumno {
     }
 
    
-    public void verDatos() {
-        System.out.println("Nombre: "+this.Nombre+
 
-    }
 }
